@@ -1,6 +1,10 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 
+*{
+  box-sizing: border-box;
+}
+
 
 /*add a black background color to the top navigation*/
 .topnav {
@@ -172,4 +176,26 @@ figure.snip img {
     text-transform: none;
     display: block;
   }
-  
+
+  /*This is the main page photo*/
+
+  figure.host .ceo {
+    border-radius: 25%;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+    left: 40%;
+
+  }
+
+  .ceo {
+    text-align: center;
+    background-color: white;
+  }
+
+  figure.host img {
+    border-radius: 25%;
+    border: 2px solid red;
+    height: 220px;
+    width: 220px;
+  }
