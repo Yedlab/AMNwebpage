@@ -187,10 +187,17 @@ figure.snip img {
     left: 40%;
 
   }
-
-  .ceo {
+/* this all needs work */
+  .h5 .hosttext {
     text-align: center;
     background-color: white;
+    border-radius: 25%;
+    height: 120px;
+    width: 220px;
+    display: inline-block;
+    position: relative;
+    left:40%
+
   }
 
   figure.host img {
