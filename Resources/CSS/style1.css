@@ -47,12 +47,18 @@
   color: gold;
 }
 
+h1 {
+  color: white;
+}
+
 h2 {
     text-align: center;
+    color: white;
 }
 
 p {
     text-align: center;
+    color: white;
 }
 
 figure.snip {
@@ -131,9 +137,13 @@ figure.snip img {
     text-transform: none;
     display: block;
   }
+
   /* Demo purposes only */
+
   body {
     background-color: #17acda;
+    background-image: url("../Images/AppleCentralWorldBanner.png");
+    background-size: cover;
   }
 
   /* trying for the cat*/
@@ -174,32 +184,24 @@ figure.snip img {
     display: block;
   }
 
-  /*This is the main page photo*/
-
-  figure.host .ceo {
-    border-radius: 25%;
-    display: inline-block;
-    z-index: 1;
-    position: relative;
-    left: 40%;
-
-  }
 /* this all needs work */
-  .h5 .hosttext {
-    text-align: center;
-    background-color: white;
-    border-radius: 25%;
-    height: 120px;
-    width: 220px;
-    display: inline-block;
-    position: relative;
-    left:40%
 
+  .hosttext {
+    text-align: center;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
   }
 
-  figure.host img {
+  #host {
     border-radius: 25%;
     border: 2px solid red;
     height: 220px;
     width: 220px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   } 
