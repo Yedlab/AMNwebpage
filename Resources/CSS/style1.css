@@ -39,18 +39,23 @@
 }
 
 #hook {
-  background-color: purple;
+  /* <two comments below> are gradients that could be used */
+  /* background-image: radial-gradient(ellipse, #553c9a, #b393d3); */
+  /*background-image: conic-gradient(#553c9a 30%, #ee4b2b 40%, #ee4b2b 70%, #00c2cb 80%, #553c9a);*/
+  background-clip: text;
   text-align: center;
   font-weight: bold;
   max-width: 100%;
   max-height: 100%;
-  color: gold;
+  color: #fdfdfe; /* ref 'cool ways to style header in CSS bookmark in chrome': this causes the glowing header text*/
+  text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
 }
 
 h1 {
   color: white;
   text-align: center;
-  background-color: purple;
+  background-color: transparent;
 }
 
 h2 {
