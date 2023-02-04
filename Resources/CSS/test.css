@@ -1,0 +1,215 @@
+/* Everything here is for the NAV bar */
+
+header img {
+    height: 80px;
+    margin-left: 40px;
+}
+
+header {
+    background-color: rgb(240, 10, 175);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* style the links inside the navigation bar*/
+
+nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* change the color of the links on hover */
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* add a color to the active/current link */
+
+nav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Body and Main Content */
+
+body {
+    /* height: 125vh; */
+    background-image: url('../Images/AppleCentralWorldBanner.png');
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+main {
+    color: white;
+}
+
+#hook {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  max-width: 100%;
+  max-height: 100%;
+  color: #fdfdfe; /* ref 'cool ways to style header in CSS bookmark in chrome': this causes the glowing header text*/
+  text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+}
+
+#host {
+    border-radius: 25%;
+    border: 2px solid red;
+    height: 220px;
+    width: 220px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+
+  h2, p {
+    text-align: center;
+    color: white;
+}
+
+/* Testimonial Card Section */
+
+figure.snip {
+    font-family: 'Raleway', Arial, sans-serif;
+    position: realtive;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 220px;
+    max-width: 310px;
+    width: 100%;
+    color: #333;
+    text-align: left;
+    box-shadow: none !important;
+    display: inline-block;
+}
+
+figure.snip * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+figure.snip img {
+    max-width: 100%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+  }
+  figure.snip blockquote {
+    margin: 0;
+    display: block;
+    border-radius: 8px;
+    position: relative;
+    background-color: #fafafa;
+    padding: 30px 50px 65px 50px;
+    font-size: 0.8em;
+    font-weight: 500;
+    margin: 0 0 -50px;
+    line-height: 1.6em;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  }
+  figure.snip blockquote:before,
+  figure.snip blockquote:after {
+    font-family: 'FontAwesome';
+    content: "\201C";
+    position: absolute;
+    font-size: 50px;
+    opacity: 0.3;
+    font-style: normal;
+  }
+  figure.snip blockquote:before {
+    top: 35px;
+    left: 20px;
+  }
+  figure.snip blockquote:after {
+    content: "\201D";
+    right: 20px;
+    bottom: 35px;
+  }
+  figure.snip .dog {
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+  }
+  figure.snip .dog h5 {
+    opacity: 0.8;
+    margin: 0;
+    font-weight: 800;
+  }
+  figure.snip .dog h5 span {
+    font-weight: 400;
+    text-transform: none;
+    display: block;
+  }
+
+  /* trying for the cat*/
+
+  figure.snip .cat {
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+  }
+  figure.snip .cat h5 {
+    opacity: 0.8;
+    margin: 0;
+    font-weight: 800;
+  }
+  figure.snip .cat h5 span {
+    font-weight: 400;
+    text-transform: none;
+    display: block;
+  }
+
+  /* this is for the fish*/
+
+   figure.snip .fish {
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+  }
+  figure.snip .fish h5 {
+    opacity: 0.8;
+    margin: 0;
+    font-weight: 800;
+  }
+  figure.snip .fish h5 span {
+    font-weight: 400;
+    text-transform: none;
+    display: block;
+  }
