@@ -213,3 +213,17 @@ figure.snip img {
     text-transform: none;
     display: block;
   }
+
+  /*audio*/
+  figure {
+    display: inline;
+    position: relative;
+    color: white;
+    text-align: center;
+  }
+
+  audio {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+  }
